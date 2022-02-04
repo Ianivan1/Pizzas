@@ -1,0 +1,160 @@
+body {
+    width: auto;
+    height: auto;
+    background-image: url(https://img.freepik.com/foto-gratis/tabla-cortar-madera-vieja-tabla-pizza-madera-redonda-sobre-fondo-madera-textura_79075-2405.jpg?size=626&ext=jpg); 
+    background-size: cover; 
+    background-repeat:no-repeat; 
+    background-position: center center; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo{
+    background-color: rgba(255, 161, 74, 0.281);  
+    text-align: center;
+    width: 100%;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+}
+.titulo img{
+    width: 60px ;
+    height: 60px;
+}
+.agust{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.agust img{
+    float: right;
+  width: 250px;
+  height: 250px;
+}
+.fondoP{
+    background-color: rgb(255, 255, 255);  
+}
+
+#campotransparente{
+    background: transparent;
+}
+
+.centrar{
+    text-align: center;
+}
+.content-input input,
+
+.content-select select{
+
+	appearance: none;
+
+	-webkit-appearance: none;
+
+	-moz-appearance: none;
+
+}
+.content-select select::-ms-expand {
+
+    display: none;
+    
+    }
+    .content-select{
+
+        max-width: 250px;
+    
+        position: relative;
+    
+    }
+
+    .content-select select{
+    
+        display: inline-block;
+    
+        width: 100%;
+    
+        cursor: pointer;
+    
+    padding: 7px 10px;
+    
+    	height: 42px;
+    
+	outline: 0; 
+    
+    	border: 0;
+    
+        border-radius: 0;
+    
+        background: #f0f0f0;
+    
+        color: #7b7b7b;
+    
+        font-size: 1em;
+    
+        color: #999;
+    
+        font-family: 
+    
+        'Quicksand', sans-serif;
+    
+        border:2px solid rgba(0,0,0,0.2);
+    
+    border-radius: 12px;
+    
+    position: relative;
+    
+    transition: all 0.25s ease;
+    
+    }
+    
+    .content-select select:hover{
+    
+        background: #b1cfe800;
+    
+    }
+    
+    
+    
+    .content-select i{
+    
+        position: absolute;
+    
+        right: 20px;
+    
+        top: calc(50% - 13px);
+    
+        width: 16px;
+    
+        height: 16px;
+    
+        display: block;
+    
+        border-left:4px solid #000000;
+    
+        border-bottom:4px solid #000000;
+    
+        transform: rotate(-45deg); 
+    
+        transition: all 0.25s ease;
+    
+    }
+
+    
+    .content-select:hover i{
+    
+        margin-top: 3px;
+    
+    }
+    #submit { 
+        font-weight: bold;
+        cursor: pointer;
+        padding: 5px; 
+        margin: 0 10px 20px 0; 
+        border: 1px solid #ccc; 
+        background: #eee;
+        border-radius: 8px 8px 8px 8px; 
+    }
+         #submit:hover { 
+             background: #ddd; 
+            }

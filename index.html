@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Pancho's Pizza</title>
+   <meta charset="UTF-8">
+   <link rel='stylesheet' type='text/css' media='screen' href='Estilos/CSS.css'>
+</head>
+
+<body>
+   <div class="titulo">
+      <h1>Pedidos de Pancho's Pizza</h1>
+      <img src="Imagenes/pizza.png">
+      <br>
+   </div>
+   <br>
+   <form>
+      <fieldset>
+         
+            <legend align="center">
+               <h3> La pizzone</h3>
+            </legend>
+            <div class="agust">
+               <img src="Imagenes/piza.png">
+               <p>Ingredientes</p>
+               <input type="checkbox" name="queso" checked /> <label>Queso</label><br>
+               <input type="checkbox" name="pimiento" checked/> <label>Pimiento</label><br>
+               <input type="checkbox" name="cebolla" checked/><label> Cebolla</label>
+               <br>
+               <p>Tamaño</p>
+               <input type="radio" name="tamano" /><label> Pequeña</label><br>
+               <input type="radio" name="tamano" /><label> Mediana </label><br>
+               <input type="radio" name="tamano" checked /> <label>Grande</label>
+            </div>
+      </fieldset>
+      <br>
+      <fieldset>
+         <legend align="center">
+            <h3>Datos de la entrega</h3>   
+         </legend>
+         <div class="agust">
+            <img src="Imagenes/registro.png">
+         <label>Nombre:  </label><input type="text" name="nombre" placeholder="Escribe tu nombre" id="campotransparente"><br>
+         <label>Dirección: </label><input type="text" name="direccion" placeholder="Escribe tu dirección" id="campotransparente"><br>
+         <label>Teléfono:      </label><input type="text" name="telefono" placeholder="Escribe tu telefono" id="campotransparente"><br>
+         <label>Instrucciones especiales: </label><br /><textarea id="campotransparente"cols="40" rows="15"></textarea>
+         </div>
+      </fieldset>
+      <fieldset>
+         <legend align="center">
+            <h3>Método del pago</h3>
+         </legend>
+         <div class="centrar">
+         <div class="content-select">
+         <select>
+            <option>Efectivo</option>
+            <option>VISA</option>
+            <option>Oxxo</option>
+            <option>Transferencia bancaria</option>
+         </select>
+         <i></i>
+      </div>
+      
+         <input type="submit" id="submit" value="Enviar pedido">
+   </div>
+      </fieldset>
+
+      
+
+   </form>
+</body>
+
+</html>
